@@ -461,6 +461,7 @@ class WeatherApp:
         self.area_list_container.update()
         self.area_dropdown.update()
 
+# プログラムのエントリーポイント
 def main():
     app = WeatherApp()
     ft.app(target=app.main)
